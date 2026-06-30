@@ -95,10 +95,37 @@ header::after {
     letter-spacing: 0.03em;
 }
 
+/* ─── About ──────────────────────────────────── */
+
+.about {
+    background: #0f1f37;
+    border-top: 1px solid var(--border-subtle);
+    border-bottom: 1px solid var(--border-subtle);
+    padding: 70px 0;
+}
+
+.about-inner {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-inner p {
+    font-size: 0.925rem;
+    font-weight: 300;
+    color: var(--text-muted);
+    line-height: 1.95;
+    letter-spacing: 0.02em;
+}
+
+.about-inner p + p {
+    margin-top: 1.5rem;
+}
+
 /* ─── Brands ──────────────────────────────────── */
 
 .brands {
-    padding: 80px 0 90px;
+    padding: 70px 0 90px;
 }
 
 .brands-grid {
