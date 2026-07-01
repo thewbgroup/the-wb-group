@@ -110,6 +110,15 @@ header::after {
     text-align: center;
 }
 
+.about-title {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--yellow);
+    margin-bottom: 1.5rem;
+}
+
 .about-inner p {
     font-size: 0.925rem;
     font-weight: 300;
